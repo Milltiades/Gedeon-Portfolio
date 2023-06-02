@@ -49,7 +49,7 @@ export default function ProjectSection() {
           For more
           <span
             style={{ marginLeft: "10px" }}
-            class="material-symbols-outlined"
+            className="material-symbols-outlined"
           >
             chevron_right
           </span>

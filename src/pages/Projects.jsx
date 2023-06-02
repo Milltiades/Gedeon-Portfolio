@@ -13,7 +13,7 @@ export default function Projects() {
     <div className="project-page">
       <div className="project-page_header">
         <a href="" className="back" onClick={() => navigate("/")}>
-          <span class="material-symbols-outlined">keyboard_backspace</span>
+          <span className="material-symbols-outlined">keyboard_backspace</span>
         </a>
         <motion.div className="project-right"
         initial={{ y: -500 }}
