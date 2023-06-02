@@ -57,6 +57,11 @@ export default function AboutSection() {
             <div className="skill">typescript</div>
             <div className="skill">styled components</div>
             <div className="skill">parallax</div>
+            <div className="skill">nodejs</div>
+            <div className="skill">expressjs</div>
+            <div className="skill">mongoDb</div>
+            <div className="skill">api</div>
+           
         </div>
       </div>
     </div>

@@ -24,16 +24,19 @@ body {
   min-height: 100vh;
   background: var(--main-bg-color);
 }
+a {
+  text-decoration: none;
+}
 
 .hero {
   padding-left: 20px;
   padding-top: 60px;
   height: 100vh;
   background-color: var(--hero-color);
-  /* background-image: url("/assets/hero3.PNG");
+  background-image: url("/assets/hero4-transformed.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0 50%; */
+  /* background-position: 0 50%; */
 }
 
 .hero-name {
