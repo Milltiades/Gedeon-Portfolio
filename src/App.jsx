@@ -10,10 +10,16 @@ import AboutMe from "./pages/AboutMe";
 function App() {
   return (
     <>
-    <Routes>
+    {/* <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/projects" element={<Projects/>} />
       <Route path="/aboutme" element={<AboutMe/>} />
+    </Routes> */}
+
+    <Routes>
+      <Route path="/" Component={Home}/>
+      <Route path="/projects" Component={Projects} />
+      <Route path="/aboutme" Component={AboutMe} />
     </Routes>
      
     </>
