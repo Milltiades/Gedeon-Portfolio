@@ -19,7 +19,7 @@ function App() {
     <Routes>
       <Route path="/" Component={Home}/>
       <Route path="/projects" Component={Projects} />
-      <Route path="/aboutme" Component={AboutMe} />
+      <Route path="/about" Component={AboutMe} />
     </Routes>
      
     </>

@@ -89,6 +89,8 @@ a {
   background: var(--line-color);
   position: absolute;
   bottom: 25px;
+  border: none;
+  cursor: pointer;
 }
 
 .hero-circle_h1 {

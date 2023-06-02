@@ -1,21 +1,26 @@
 import React from "react";
 import { Parallax } from "react-scroll-parallax";
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router"
+import { useNavigate } from "react-router";
 
 export default function AboutSection() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div className="section-about">
       <Parallax speed={10}>
-        <motion.div
+        <motion.button
           className="hero-circle"
           initial={{ y: 20 }}
           animate={{ x: 0, y: 0, scale: 1 }}
           transition={{ duration: 0.2 }}
+          onClick={() => navigate("about")}
         >
-          <a href=""> <h1 className="hero-circle_h1" onClick={() => navigate('/aboutme') }>about me</h1> </a>
-        </motion.div>
+         
+            <h1 className="hero-circle_h1" >
+              about me
+            </h1>{" "}
+         
+        </motion.button>
       </Parallax>
       <div className="section-about_header">
         <Parallax speed={10} translateY={["200px", "125px"]}>
@@ -36,7 +41,7 @@ export default function AboutSection() {
           a high-quality end products with pixel-perfect check.
         </p>
       </div>
-     
+
       <Parallax speed={5} translateY={["500px", "-150px"]}>
         <div className="sun" />
       </Parallax>
@@ -49,21 +54,20 @@ export default function AboutSection() {
       <div className="skills">
         <h1>Skills</h1>
         <div>
-            <div className="skill">react</div>
-            <div className="skill">three.js</div>
-            <div className="skill">framer motion</div>
-            <div className="skill">html</div>
-            <div className="skill">css</div>
-            <div className="skill">scss</div>
-            <div className="skill">javascript</div>
-            <div className="skill">typescript</div>
-            <div className="skill">styled components</div>
-            <div className="skill">parallax</div>
-            <div className="skill">nodejs</div>
-            <div className="skill">expressjs</div>
-            <div className="skill">mongoDb</div>
-            <div className="skill">api</div>
-           
+          <div className="skill">react</div>
+          <div className="skill">three.js</div>
+          <div className="skill">framer motion</div>
+          <div className="skill">html</div>
+          <div className="skill">css</div>
+          <div className="skill">scss</div>
+          <div className="skill">javascript</div>
+          <div className="skill">typescript</div>
+          <div className="skill">styled components</div>
+          <div className="skill">parallax</div>
+          <div className="skill">nodejs</div>
+          <div className="skill">expressjs</div>
+          <div className="skill">mongoDb</div>
+          <div className="skill">api</div>
         </div>
       </div>
     </div>
