@@ -8,7 +8,7 @@ export default function About() {
     <div className="about-page">
       <div className="about-page_header">
         <a href="" className="back" onClick={() => navigate("/")}>
-          <span class="material-symbols-outlined">keyboard_backspace</span>
+          <span className="material-symbols-outlined">keyboard_backspace</span>
         </a>
         <motion.div className="about-right"
         initial={{ y: -500 }}
