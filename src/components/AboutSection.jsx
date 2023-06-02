@@ -1,8 +1,10 @@
 import React from "react";
 import { Parallax } from "react-scroll-parallax";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 export default function AboutSection() {
+  const navigate = useNavigate()
   return (
     <div className="section-about">
       <Parallax speed={10}>
@@ -12,7 +14,7 @@ export default function AboutSection() {
           animate={{ x: 0, y: 0, scale: 1 }}
           transition={{ duration: 0.2 }}
         >
-          <h1 className="hero-circle_h1">about me</h1>
+          <a href=""> <h1 className="hero-circle_h1" onClick={() => navigate('/about') }>about me</h1> </a>
         </motion.div>
       </Parallax>
       <div className="section-about_header">

@@ -30,7 +30,7 @@ export default function Contact() {
         alt=""
       />
       <div className="footer">
-        <h2>gedeon kakulia</h2>
+        <a href="#"> <h2>gedeon kakulia</h2> </a>
         <h2>2023</h2>
       </div>
     </div>
