@@ -197,11 +197,8 @@ a {
   color: white;
   border-radius: 4px;
   cursor: pointer;
-
-  &:hover {
-    transform: translateY(-1px);
-  }
 }
+
 
 /* project */
 .section-btn {
@@ -360,8 +357,6 @@ a {
   display: flex;
   flex-direction: column;
   height: 100vh;
-
-;
 }
 
 .back {
@@ -403,11 +398,12 @@ a {
   line-height: 30px;
   color: var(--text-color);
 }
+
 .about-bottom_sea {
   position: absolute;
   width: 80%;
- bottom: 40px;
- align-self: center;
+  bottom: 40px;
+  align-self: center;
 }
 
 /* project-page */
@@ -446,13 +442,13 @@ a {
   gap: 35px;
 }
 
-.project-page_projects{
+.project-page_projects {
   margin-top: 40px;
 }
 
 .project-bottom_sea {
   width: 80%;
- bottom: 40px;
- align-self: center;
- margin: 40px 0;
+  bottom: 40px;
+  align-self: center;
+  margin: 40px 0;
 }
