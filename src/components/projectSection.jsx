@@ -2,7 +2,7 @@ import React from "react";
 import { Parallax } from "react-scroll-parallax";
 import data from "../../data.json";
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router"
 
 export default function ProjectSection() {
   const navigate = useNavigate()
