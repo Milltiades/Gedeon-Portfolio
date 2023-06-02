@@ -191,6 +191,31 @@ body {
 }
 
 /* project */
+.section-btn{
+  width: 160px;
+  height: 46px;
+  border: none;
+  margin: 0 auto;
+  background: transparent;
+  line-height: 55px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: var(--text-color);
+    font-weight: bold;
+    outline: 3px solid var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .5 ease;
+    margin-bottom: 30px;
+}
+
+.section-btn:hover {
+ background: var(--text-color);
+
+ color: white;
+}
 
 .section-project_main {
   overflow-x: hidden;
@@ -213,6 +238,7 @@ body {
   line-height: 100px;
   font-weight: 300;
   color: var(--text-color);
+  margin-left: 20px;
 }
 
 .section-project_main {

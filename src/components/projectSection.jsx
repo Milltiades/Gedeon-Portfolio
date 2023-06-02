@@ -44,6 +44,11 @@ export default function ProjectSection() {
             </div>
         )
     })}
+    <button className="section-btn">For more
+    <span style={{marginLeft: '10px'}} class="material-symbols-outlined">
+chevron_right
+</span>
+     </button>
 
 <motion.img className="sea"
           src="https://uploads-ssl.webflow.com/630b962d741fe7d3044007ae/6319e4a1c7871485a9854765_Curve%20line_2.svg"
