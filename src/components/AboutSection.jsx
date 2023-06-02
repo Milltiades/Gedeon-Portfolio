@@ -14,7 +14,7 @@ export default function AboutSection() {
           animate={{ x: 0, y: 0, scale: 1 }}
           transition={{ duration: 0.2 }}
         >
-          <a href=""> <h1 className="hero-circle_h1" onClick={() => navigate('/about') }>about me</h1> </a>
+          <a href=""> <h1 className="hero-circle_h1" onClick={() => navigate('/aboutme') }>about me</h1> </a>
         </motion.div>
       </Parallax>
       <div className="section-about_header">

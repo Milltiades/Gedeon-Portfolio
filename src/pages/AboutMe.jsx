@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router"
 import { motion } from "framer-motion";
 
-export default function About() {
+export default function AboutMe() {
   const navigate = useNavigate();
   return (
     <div className="about-page">
