@@ -46,7 +46,7 @@ export default function AboutSection() {
         <div className="sun" />
       </Parallax>
       <Parallax speed={5} translateY={["500px", "300px"]}>
-        <img
+        <img className="wave"
           src="https://uploads-ssl.webflow.com/630b962d741fe7d3044007ae/6319e4a1c7871485a9854765_Curve%20line_2.svg"
           alt=""
         />

@@ -24,6 +24,7 @@ export default function Projects() {
           <div className="project-line" />
         </motion.div>
       </div>
+      <div className="project-grid">
       {data.map((project, index) => {
           return (
             <motion.div className="project-page_projects" key={index}
@@ -31,13 +32,15 @@ export default function Projects() {
         animate={{ x: 0, y: 0, scale: 1 }}
         transition={{ duration: 1 }}
             >
+              
               <h1>{project.header}</h1>
               <p>{project.text}</p>
               <img className="project-img" src={project.image} alt="" />
+             
             </motion.div>
           );
         })}
-     
+     </div>
       <img
         className="project-bottom_sea"
         src="https://uploads-ssl.webflow.com/630b962d741fe7d3044007ae/631894c755081b2dd15a7424_Curve%20line.svg"

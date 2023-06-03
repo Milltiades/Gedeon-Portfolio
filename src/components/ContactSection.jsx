@@ -8,7 +8,7 @@ export default function Contact() {
         <Parallax speed={10} translateY={["300px", "150px"]}>
           <div className="number-contact">03</div>
         </Parallax>
-        <Parallax speed={15} translateY={["150px", "0px"]}>
+        <Parallax speed={15} translateY={window.innerWidth < 480 ?["550px", "100px"] : ["350px", "50px"]}>
           <div className="stick_header">
             <div className="stick" />
             <p className="stick-p">contact me</p>
