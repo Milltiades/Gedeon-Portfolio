@@ -10,10 +10,10 @@ export default function ProjectSection() {
   return (
     <div className="section-project">
       <div className="section-project_header">
-        <Parallax speed={10} translateY={["1300px", "400px"]}>
+        <Parallax speed={10} translateY={window.innerWidth < 480 ? ["1300px", "400px"] : ['800px', '300px']}>
           <div className="number-project">02</div>
         </Parallax>
-        <Parallax speed={15} translateY={["1150px", "250px"]}>
+        <Parallax speed={15} translateY={window.innerWidth < 480 ? ["1100px", "400px"] : ['900px', '300px']}>
           <div className="stick_header">
             <div className="stick" />
             <p className="stick-p">my projects</p>
@@ -35,7 +35,7 @@ export default function ProjectSection() {
             repeat: Infinity,
           }}
         />
-
+<div className="project-section-desktop" >
         {newData.map((project, index) => {
           return (
             <div className="project" key={index}>
@@ -45,6 +45,7 @@ export default function ProjectSection() {
             </div>
           );
         })}
+        </div>
         <button className="section-btn" onClick={() => navigate('/projects')}>
           For more
           <span

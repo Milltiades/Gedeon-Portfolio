@@ -47,7 +47,6 @@ a {
   line-height: 24px;
   text-align: left;
   display: inline-block;
-
   color: #000;
   font-size: 16px;
   letter-spacing: 6px;
@@ -237,10 +236,13 @@ a {
   gap: 25px;
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 1300px;
+  /* position: absolute; */
+  /* top: 1300px; */
 }
-
+.section-project_header {
+  display: flex;
+  flex-direction: row;
+}
 .section-project {
   position: relative;
   top: 100px;
@@ -302,7 +304,10 @@ a {
 }
 
 /* contact */
-
+.section-contact_header {
+  display: flex;
+  flex-direction: row;
+}
 .contact {
   position: relative;
   top: 800px;
@@ -321,7 +326,7 @@ a {
 
 .contact h1 {
   position: relative;
-  top: 200px;
+  top: 400px;
   line-height: 30px;
   font-size: 30px;
   color: var(--text-color);
@@ -457,3 +462,216 @@ a {
   align-self: center;
   margin: 40px 0;
 }
+
+
+/* responsive 768px */
+
+@media (min-width: 480px) {
+  .hero {
+  
+    padding-left: 40px;
+    background-size: cover;
+    background-position:  50%;
+  }
+  .hero-name {
+    width: auto;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .hero-text {
+    margin-top: 180px;
+  }
+  .hero-text_line{
+    width: 40%;
+    margin-top: 10px;
+  }
+  .hero-text_h1{
+    font-size: 44px;
+    line-height: 60px;
+  }
+  .hero-text_p {
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 40px;
+    width: 45%;
+  }
+
+  /* about-section */
+  .hero-circle_h1{
+     font-size: 32px;
+  }
+  .hero-circle {
+    width: 300px;
+    height: 300px;
+  }
+  .section-about {
+    padding: 0 40px;
+
+  }
+  .number{
+    font-size: 140px;
+    line-height: 140px;
+  }
+  .stick-p{
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 600;
+  }
+  .section-about_main h1{
+line-height: 80px;
+font-size: 44px;
+  }
+  .section-about_main p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .sun {
+    width: 300px;
+    height: 300px;
+  }
+  .wave{
+    width: 75%;
+    
+  }
+  .skills h1 {
+    line-height: 80px;
+    font-size: 44px;
+    margin-bottom: 8px;
+  }
+  .skills div {
+    gap: 20px;
+
+  }
+  .skill{
+    padding: 10px 15px;
+    font-size: 24px;
+  }
+
+  /* project */
+  .section-project_main{
+    gap: 35px;
+    
+    
+  }
+ 
+
+  
+  .number-project{
+    font-size: 140px;
+    line-height: 140px;
+    margin-left: 40px;
+  }
+ .sea {
+  width: 50%;
+ }
+ .project {
+  padding: 0 40px;
+width: 100%;
+ }
+ .project h1{
+  line-height: 80px;
+    font-size: 44px;
+ }
+ .project p{
+  font-size: 24px;
+    line-height: 40px;
+ }
+ .project-img {
+  
+  height: 400px;
+  margin-top: 20px;
+ }
+ .section-btn{
+  width: 220px;
+  height: 55px;
+  font-size: 20px;
+ }
+
+
+.contact h1 {
+  font-size: 44px;
+  line-height: 44px;
+  margin-top: 20px;
+  
+}
+.footer h2{
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 200px;
+}
+.sea-bottom {
+  width: 80%;
+  margin: 150px auto;
+}
+
+
+/* about-page */
+
+.about-page {
+  padding: 40px;
+}
+.about-page_p {
+  font-size: 24px;
+  line-height: 40px;
+  top: 200px;
+}
+
+.project-page{
+  padding: 40px;
+}
+
+.project-page_projects h1{
+  line-height: 80px;
+  font-size: 44px;
+}
+.project-page_projects p {
+  font-size: 24px;
+    line-height: 40px;
+}
+.project-bottom_sea {
+ 
+  margin: 80px 0;
+}
+}
+
+
+
+/* responsive 1200px */
+
+@media (min-width: 1200px) {
+  .hero {
+  
+    padding-left: 40px;
+    background-size:  cover;
+    background-position: 10% 35%;
+  }
+  .hero-circle {
+    top: -300px;
+    width: 300px;
+    height: 300px;
+  }
+  .wave{
+    width: 55%;
+    
+  }
+  .project-section-desktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:end
+  }
+  .project h1{
+    line-height: 44px;
+      font-size: 44px;
+      width: 100%;
+   }
+
+   .project-grid {
+    align-items: end;
+    gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+   
+}
+
