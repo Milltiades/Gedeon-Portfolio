@@ -2,7 +2,8 @@ import React from "react";
 import { Parallax } from "react-scroll-parallax";
 import data from "../../data.json";
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router"
+import { useNavigate} from "react-router"
+
 
 export default function ProjectSection() {
   const navigate = useNavigate()
@@ -41,7 +42,11 @@ export default function ProjectSection() {
             <div className="project" key={index}>
               <h1>{project.header}</h1>
               <p>{project.text}</p>
-              <img className="project-img" src={project.image} alt="" />
+             <a href={project.link}>
+              <img className="project-img" src={project.image} alt=""/>
+              </a>
+             
+              
             </div>
           );
         })}

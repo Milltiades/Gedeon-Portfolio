@@ -35,7 +35,9 @@ export default function Projects() {
               
               <h1>{project.header}</h1>
               <p>{project.text}</p>
+              <a href={project.link}>
               <img className="project-img" src={project.image} alt="" />
+              </a>
              
             </motion.div>
           );
