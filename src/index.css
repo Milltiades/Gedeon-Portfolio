@@ -39,7 +39,7 @@ a {
   background-image: url("/assets/hero4-transformed.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: 0 50%; */
+ 
 }
 
 .hero-name {
@@ -273,6 +273,7 @@ a {
   margin-top: 10px;
   filter: grayscale(100%);
   transition: filter 0.3s ease;
+  object-fit: cover;
 }
 
 .project-img:hover,
