@@ -5,6 +5,8 @@ import Projects from "./pages/Projects";
 
 import AboutMe from "./pages/AboutMe";
 
+import PlayMusic from "./components/PlayMusic"
+
 
 
 function App() {
@@ -21,6 +23,10 @@ function App() {
       <Route path="/projects" Component={Projects} />
       <Route path="/about" Component={AboutMe} />
     </Routes>
+
+<div className="playDiv">
+    <PlayMusic/>
+    </div>
      
     </>
   );
