@@ -1,13 +1,13 @@
 import React from "react";
-import { useNavigate } from "react-router"
+
 import { motion } from "framer-motion";
 
 export default function AboutMe() {
-  const navigate = useNavigate();
+  
   return (
     <div className="about-page">
       <div className="about-page_header">
-        <a href="" className="back" onClick={() => navigate("/")}>
+        <a href="/#/" className="back" >
           <span className="material-symbols-outlined">keyboard_backspace</span>
         </a>
         <motion.div className="about-right"

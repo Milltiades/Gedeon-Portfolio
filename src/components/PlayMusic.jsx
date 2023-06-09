@@ -38,7 +38,7 @@ export default function PlayMusic() {
           setIsPlaying(false);
         }
       };
-    }, []);
+    }, [audio]);
   
 
   return (

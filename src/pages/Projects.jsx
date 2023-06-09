@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router"
+
 import { motion } from "framer-motion";
 import data from "../../data.json"
 import { useEffect } from "react";
@@ -8,11 +8,11 @@ export default function Projects() {
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
-  const navigate = useNavigate();
+  
   return (
     <div className="project-page">
       <div className="project-page_header">
-        <a href="" className="back" onClick={() => navigate("/")}>
+        <a href="/#/" className="back" >
           <span className="material-symbols-outlined">keyboard_backspace</span>
         </a>
         <motion.div className="project-right"
