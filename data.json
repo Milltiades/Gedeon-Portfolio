@@ -1,6 +1,15 @@
-[
+[  {
+    "id": 1,
+    "header": "Fitness",
+    "text": "Fitness Website ",
+    "image":"/assets/fitness.PNG",
+    "link" : "https://fitness-website-template.netlify.app/"
+},
+    
+    
+    
     {
-        "id": 1,
+        "id": 2,
         "header": "DevFinder ",
         "text": "Github user finder ",
         "image":"/assets/git.png",
@@ -8,56 +17,56 @@
     },
     
     {
-        "id": 2,
+        "id": 3,
         "header": "L-earn",
         "text": "L-earn - online university",
         "image":"/assets/learn.png",
         "link" : "https://remarkable-figolla-45b3d5.netlify.app/"
     },
     {
-        "id": 3,
+        "id": 4,
         "header": "Clock ",
         "text": "Fun project - Clock ",
         "image":"/assets/clock.jpg",
         "link" : "https://awesome-clock-app.netlify.app/"
     },
     {
-        "id": 4,
+        "id": 5,
         "header": "Password Generator ",
         "text": "Fun project - Password Generator ",
         "image":"/assets/pass.jpg",
         "link" : "https://generate-password-now.netlify.app/"
     },
     {
-        "id": 5,
+        "id": 6,
         "header": "Mp3 downloader",
         "text": "Feel free to download mp3 from youtube",
         "image":"/assets/youtube.png",
         "link" : "https://youtube-mp3-converter.netlify.app/"
     },
     {
-        "id": 6,
+        "id": 7,
         "header": "Interactive card",
         "text": "Fun project - Interactive card",
         "image":"/assets/card.png",
         "link" : "https://interactive-plastic-card.netlify.app/"
     },
     {
-        "id": 7,
+        "id": 8,
         "header": "Planets ",
         "text": "Fun project - Planets ",
         "image":"/assets/planets.png",
         "link" : "https://awesomeplanets.netlify.app/"
     },
     {
-        "id": 8,
+        "id": 9,
         "header": "Movies App ",
         "text": "Fun project - Movies App ",
         "image":"/assets/movies.png",
         "link" : "https://awesome-movies-app-netlify.netlify.app/"
     },
     {
-        "id": 9,
+        "id": 10,
         "header": "Audiophile ",
         "text": "Audiophile - Ecommerce Website ",
         "image":"/assets/audpreview.jpg",
