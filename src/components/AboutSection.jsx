@@ -60,6 +60,7 @@ export default function AboutSection() {
           <div className="skill">html</div>
           <div className="skill">css</div>
           <div className="skill">scss</div>
+          <div className="skill">tailwind</div>
           <div className="skill">javascript</div>
           <div className="skill">typescript</div>
           <div className="skill">styled components</div>
